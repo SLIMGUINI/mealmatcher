@@ -1,0 +1,28 @@
+name: mealmatcher
+description: A restaurant finder app with travel time features.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  http: ^1.1.0
+  flutter_rating_bar: ^4.0.1
+  cached_network_image: ^3.3.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  uses-material-design: true
